@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+ 
+  <!--Using various style-->
+  <style type="text/css">
+    
+    #Header{
+      color:blue;
+      background-color:lightgreen;
+      font-family:comic sans ms;
+      margin:20px;
+      width:750px
+   text-align: center;
+       
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+        
+   
+
+    #para{
+        color:green;
+        background-color:lightgreen;
+        font-family:"cursive";
+        margin:20px;
+        border:2px solid lightgreen;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+         text-align: center;
+      font-size:20px;
+       justify-content: center;
+      
+      max-height:95%;
+      max-width:95%;
+      
+
+      
+    }
+    .itemlist{
+      color:blue;
+       margin:30px;
+       text-align: center;
+      background-color:lightgreen;
+       width:400px;
+       display: flex;
+  justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+      
+      
+    }  
+    
+    
+
+      .unordered{
+      color:red;
+        font-size:25px;
+       font-family:"cursive";
+        background-color:lightgreen;
+       margin:20px;
+    justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+    
+    
+    
+    .ordered{
+      color:red;
+      font-size:25px;
+       font-family:"cursive";
+        background-color:lightgreen;
+     margin:20px;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+    
+    
+     .information{
+     font-family:"cursive";
+      color:blue;
+     
+         text-align:center;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+   
+    #name{
+      font-size:30px;
+      color:blue;
+      text-align:center;
+      padding-top: 5px;
+      padding-bottom: 10px;
+     justify-content: center;
+      max-height:95%;
+      max-width:95%;
+        
+    }
+    
+
+    
+    
+     .process{
+     font-family:"cursive";
+      color:blue;
+      background-color:lightgreen;
+      width:200px;
+      justify-content: center;
+    max-height:95%;
+      max-width:95%;
+      
+      
+    }
+    
+
+   
+    #method{
+     color:blue;  
+   text-align: center; 
+      font-size:40px;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+    .method1{
+       color:green;
+        background-color:lightgreen;
+        font-family:"cursive";
+        margin:20px;
+        border:2px solid lightgreen;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+         text-align: center;
+       justify-content: center;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+    #more{
+        font-size:30px;
+      color:blue;
+      margin:30px;
+      padding-top: 5px;
+     justify-content: center;
+      max-height:95%;
+      max-width:95%;
+        
+    }
+     .CSS{
+        font-size:30px;
+      color:blue;
+      margin:30px;
+      padding-top: 5px;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+       
+    }
+   
+ li{
+      border:solid black 1px;
+    }
+    
+   ul li:before{
+      content: '\f138';
+    }
+
+    .span{
+       font-size:30px;
+      color:blue;
+      margin:30px;
+      padding-top: 5px;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+        
+    }
+    #span{
+     font-size:20px; 
+     margin:30px;
+       font-family:comic sans ms;
+      color:green;
+      background-color:lightgreen;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    }
+   
+   body {
+  background-color:red;
+     
+    }
+    #image{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+    #image1{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+    
+    
+    #image2{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+    #image3{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+    #image4{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+    #image5{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+     #image6{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+     #image7{
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+    } 
+    #footer{
+      background-color:blue;
+      font-size:20px;
+       margin:20px;
+      font-family:cursive;
+     
+      color:white;
+      justify-content: center;
+      max-height:95%;
+      max-width:95%;
+      
+}
+      
+
+    
+      
+  @media only screen and (max-width: 700px) {
+  body {
+    background-color: yellow;
+  }
+}   
+ 
+
+   
+    
+    
+   </style>
+  
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My favourite food </title><!--Title name-->
+</head>
+<body>
+  <div class="div">
+  <!--Header Name-->
+  <h1 id="Header"><center><b><u>MY FAVOURITE FOOD CHICKEN BIRYANI  !!</u></b></center></h1>
+  <!--Description about biryani -->
+  <p id="para"><i><b>Biryani, in itself, is a complete delicacy. The second reason for liking is the awesome mix of the flavors of Basmati rice with selected spices. This simply takes it to a completely new level. Next is the type of cooking style used, that is , the “Dum” effect.<br><br/> What happens is that the most authentic way to make biryani is by mixing all the spices and sealing it for more than 5–6 hours on a slow fire, which renders its cooking it its own juices. Simply heaven! Hyderabadi biryani is one of India's most famous biryanis; some say biryani is synonymous with Hyderabad.<br></br> The crown dish of the Hyderabadi Muslims, Hyderabadi biryani developed under the rule of Asaf Jah I, who was first appointed as the governor of Deccan by the Mughal Emperor Aurangzeb. It is made with basmati rice, spices and goat meat. Popular variations use chicken instead of goat meat. There are various forms of Hyderabadi biryani. One such biryani is the kachay gosht ki biryani or the dum biryani, where the goat meat is marinated and cooked along with the rice. It is left on a slow fire or dum for a fragrant and aromatic flavour. One more variation is dum cooked Hyderabad veg biryani for vegetarians.</b></p>
+    <hr>
+    <!--Ingredients list of biryani -->
+    
+  <h2 class="itemlist"><u>Ingredients of Chicken Biryani</u></i></h2>
+
+
+   <!-- UNORDERED INGREDIENTS LIST -->
+    <ul class="unordered">
+      
+    
+      
+      <i><li> 600 gm basmati rice &#x1F60D; </li>
+        <li>4 tablespoon mint leaves &#x1F60D; </li>
+        <li>salt as required &#x1F60D;</li>
+        <li>2 teaspoon coriander powder &#x1F60D;</li>
+        <li>1 tablespoon garlic paste &#x1F60D;</li>
+        <li>2 tablespoon tomato puree &#x1F60D;</li> 
+        <li>400 gm white onion &#x1F60D;</li>
+        <li>8 green cardamom &#x1F60D;</li>
+        <li>1 tablespoon milk &#x1F60D;</li>
+        <li>1 kilograms chicken thighs &#x1F60D;</li> 
+        <li>1 teaspoon garam masala powder &#x1F60D;</li>
+        <li>2 pinches saffron &#x1F60D;</li>
+        <li>1 tablespoon ginger paste &#x1F60D;</li>
+        <li>4 green chilli &#x1F60D;</li>
+      	<li>300 gm tomato &#x1F60D;</li>
+      	<li>2 teaspoon cumin seeds &#x1F60D;</li>
+         <li>6 tablespoon refined oil &#x1F60D;</li></i>
+     </ul>
+  
+  <hr>
+  
+  <ol style="list-style-type: lower-roman;" class="ordered">
+     <i><li>600 gm basmati rice</li>
+        <li>4 tablespoon mint leaves</li>
+        <li>salt as required</li>
+        <li>2 teaspoon coriander powder</li>
+        <li>1 tablespoon garlic paste</li>
+        <li>2 tablespoon tomato puree</li> 
+        <li>400 gm white onion</li>
+        <li>8 green cardamom</li>
+        <li>1 tablespoon milk</li>
+        <li>1 kilograms chicken thighs</li> 
+        <li>1 teaspoon garam masala powder</li>
+        <li>2 pinches saffron</li>
+        <li>1 tablespoon ginger paste</li>
+        <li>4 green chilli</li>
+      	<li>300 gm tomato</li>
+      	<li>2 teaspoon cumin seeds</li>
+         <li>6 tablespoon refined oil</li></i>
+    
+    
+    
+    
+  </ol>
+     
+    <hr>
+     	
+ 
+                             <!--Picture of the Chicken Biryani-->
+  
+   
+  <ul class="information"><center><p><u><em><b>CHICKEN BIRYANI</b></u></em></p></center></ul>
+       <center><img id="image" src="https://i.imgur.com/v8zY7GC.jpg"alt="Chicken Biryani"></center>
+      <center><h4 id="name"><u>Biryani Image</u></h4></center>
+  
+   
+    
+    
+    
+    
+    <!--instruction of marination -->
+    
+  <center><h2 class="process"><em><i><u>For Marination</u><i></em></h2></center>
+        <center class="process1">1/2 teaspoon chilli powder<br><br/></center>
+      	<center>6 tablespoon plain greek yogurt<br><br/></center>
+        <center>1 teaspoon powdered turmeric</center>
+  </ul>
+      <!--Process how to make chicken biryani -->
+        <h2 id="method"><u>How to make Chicken Biryani</u></h2>
+      <div class="method1">
+      <h3>Step 1- Marinate the chicken for 20-30 minutes</h3>
+      <h4>To prepare this mouth-watering biryani recipe, you have to marinate the chicken. For the same, take a large bowl and add Greek yoghurt in it along with turmeric, chili powder along with salt as per your taste in a small bowl. Mix well using a spoon and then, add the chicken thighs in the mixture and rub with this mixture. Keep aside for about 20-30 minutes, so that the yogurt mixture is properly absorbed by the chicken. Also, soak saffron in the milk to make saffron milk and keep aside</h4>
+      <img id="image1" src="https://recipes.timesofindia.com/thumb/62541353.cms?width=630&height=420">  
+       <h3>Step 2- Saute onions and tomatoes for 2-3 minutes</h3>
+        <h4>In the meanwhile, pour refined oil in a deep-bottomed pan, keeping it on medium flame. Add cumin seeds and green cardamom in it and saute for about 2 minutes. Once done, immediately add the sliced onion and fry for 2-3 minutes straight. Make sure you don't burn it, so when the onion starts to get brown in color, add tomatoes and tomato puree and fry for another 5 minutes.</h4>
+        <img id="image2" src="https://recipes.timesofindia.com/thumb/62551442.cms?width=630&height=420">
+        <h3>Step 3- Add the marinated chicken to the mixture</h3>
+        <h4>Next, add the slit green chilies to the mixture along with ginger-garlic paste, frying the mixture yet again for a minute. Then, add coriander powder and turn the flame to medium-low while stirring and cooking the masala. Quickly, add the marinated chicken and mix for a while so that the ingredients absorb the juices properly.</h4>
+        <img id="image3" src="https://recipes.timesofindia.com/thumb/62551441.cms?width=630&height=420">
+        
+        <h3>Step 4- Cook on low heat for 5-6 minutes</h3>
+        <h4>Turn the flame to medium again and heat-through for about 5-6 minutes only to turn it over to low heat. Cover with a lid and let simmer for 5 minutes. Make sure to keep stirring during the entire process, else the chicken might stick to the bottom, eventually ending up burnt. You can add little water, if you find the consistency too thick.</h4>
+        <img id="image4" src="https://recipes.timesofindia.com/thumb/62551443.cms?width=630&height=420">
+        <h3>Step 5- Add half of the boiled rice along with saffron milk in the pan</h3>
+        <h4>Once done, turn off the flame and add half of the boiled rice in the pan and keep the rest aside until required. Sprinkle milk soaked saffron along with garam masala, mint and coriander leaves. Put the remaining rice over this layer and garnish with the same mentioned four ingredients.</h4>
+        <img id="image5" src="https://recipes.timesofindia.com/thumb/70586717.cms?width=630&height=420">
+        <h3>Step 6- Serve hot with your favourite chutney or raita</h3>
+        <h4>Lastly, cover the lid, turn the flame to low medium and let the rice cook for about 5 minutes. Once done, put it off and let the biryani stay covered for about another 10 minutes. Serve hot, along with raita or any chutney of your choice.</h4>
+         <img id="image6" src="https://recipes.timesofindia.com/thumb/62551201.cms?width=630&height=420">
+        <h3>Step 7- Easy tips to keep in mind:</h3>
+        <h4>1. If your cooked rice has turned sticky, spread it on a plate and leave them for 5 minutes. The rice will be sperate and beautiful again.<br><br/> 2. Freshly pound spices bring out the best taste in Biryani.</h4>
+        <img id="image7" src="https://recipes.timesofindia.com/thumb/62551201.cms?width=630&height=420">
+        
+      </div>
+        <!--Adding web link to study more about the HTML & CSS-->
+    <u><p class="CSS">Different CSS Informations  </p></u>
+    <ul>
+      <li><a href="https://in.zapmetasearch.com/ws?q=html%20website%20hosting%20free&asid=zm_in_ba_2_cg2_01&de=c&ac=525&msclkid=91924735ee4b141a1e5419b83f3d8504"</a>HTML Website  hosting</li>
+       <li><a href="https://www.openstudycollege.com/courses/webmaster-html-css"</a>Webmaster-html-css</li>
+      <li><a href="https://www.codeconquest.com/training/html-css/"</a>Code Conquest</li>
+     
+    </ul>
+      
+                            <!--Adding the web link to compare our recipes with different receipe-->
+   
+        <p id="more"> Anothers link</p>
+   <ul>
+        <li><a href="https://www.sanjeevkapoor.com/Recipe/Hyderabadi-Dum-Gosht-Biryani-SK-Khazana.html">Sanjeev Kapoor Recipes</a></li>
+        <li><a href="https://www.archanaskitchen.com/chicken-donne-biryani-recipe-bangalore-shivaji-military-style">Donne Biryani</a></li>
+   	<li><a href="https://yummyindiankitchen.com/">Yummy Indian Kitchen</a></li>
+        <li><a href="https://www.allrecipes.com/recipe/16102/chicken-biryani/">Allrecipes Chicken Biryani</a></li>
+        <li><a href="https://www.ainycooks.com/punjabi-biryani/">Ainy Cooks(Punjabi Biryani)</a></li>
+     <li><a href="https://en.wikipedia.org/wiki/Biryani">Wikipedia</a></li>
+  </ul>
+    
+      
+   <!--Describing features of SPAN-->
+    <h2 class="span"><b>About SPAN tag </b></h2>
+   <p id="span"> HTML describes the structure of a Web page. HTML consists of a series of elements.HTML defines several data types for element content, such as script data and stylesheet data, and a plethora of types for attribute values, including IDs, names, URIs , numbers, units of length, languages, media descriptors, colors, character encodings, dates and times, and so on.<br><br/>HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, <span style="background-color:yellow;margin:20px;border:3px solid red; ">HTML is the standard markup language for creating Web pages. HTML stands for written using angle brackets.Tags such as and directly introduce content into the page.An HTML editor is a program for editing HTML, <u>the markup of a web page. Although the HTML markup in a web page can be controlled with any text editor, specialized HTML editors can offer convenience and added functionality.</u></span>Hyper Text Markup Language (HTML) is a markup language for creating a webpage. Webpages are usually viewed in a web browser. They can include writing, links, pictures, and even sound and video. HTML is used to mark and describe each of these kinds of content so the web browser can display them correctly.</p>
+    
+    
+    </div>
+
+    
+    <footer id="footer">
+      <p>Created by Vishal</p>
+    </footer>
+    
+    
+</body>
+</html>
